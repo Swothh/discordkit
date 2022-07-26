@@ -1,0 +1,32 @@
+{
+    "name": "discordkit",
+    "version": "1.0.0",
+    "description": "DiscordKit is a package that allows you to easily create a Discord bot.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "author": "Swôth",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Swothh/discordkit.git"
+    },
+    "keywords": [
+        "discord",
+        "bot",
+        "discord.js",
+        "kit",
+        "client",
+        "discordkit"
+    ],
+    "homepage": "https://discordkit.js.org",
+    "devDependencies": {
+        "@types/glob": "^7.2.0",
+        "typescript": "^4.7.4"
+    },
+    "dependencies": {
+        "@discordjs/rest": "^1.0.0",
+        "discord-api-types": "^0.36.3",
+        "discord.js": "^14.0.3",
+        "glob": "^8.0.3"
+    }
+}
